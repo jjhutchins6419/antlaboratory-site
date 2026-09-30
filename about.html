@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>How Ant Laboratory works — the colony, the island and the Lab</title>
-<meta name="description" content="How to play Ant Laboratory on iPhone and iPad, the Ant cam, what the simulation models about real ants, the island every colony grows from a seed, feeding, the seasons, natural weather and competition, Cinematic mode, and the Lab's Field notes, charts and data. Command tools are documented separately as later development.">
+<meta name="description" content="How to play Ant Laboratory on iPhone and iPad, the Ant cam, what the simulation models about real ants, the island every colony grows from a seed, feeding, the seasons, natural weather and competition, Cinematic mode, and the Lab's Field notes, charts and data.">
 <meta name="theme-color" content="#101d23">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
@@ -26,14 +26,13 @@
 
 <main class="wrap doc">
   <h1>How Ant Laboratory works</h1>
-  <p class="lede">Ant Laboratory is a slow, living simulation of an ant colony. You choose black garden ants or fire ants and release one newly mated queen into a glass ant farm. Everything after that happens by itself: digging, raising brood, foraging, burying the dead and crowning new queens. In time the colony breaks out of the farm and spreads across an island of its own.</p>
+  <p class="lede">Ant Laboratory is a slow, living simulation of an ant colony. You choose from six species and release one newly mated queen into a glass ant farm. Everything after that happens by itself: digging, raising brood, foraging, burying the dead and crowning new queens. In time the colony breaks out of the farm and spreads across an island of its own.</p>
   <ul class="toc">
     <li><a href="#start">Getting started</a></li>
     <li><a href="#controls">Controls</a></li>
     <li><a href="#antcam">Ant cam</a></li>
     <li><a href="#species">Species</a></li>
     <li><a href="#life">Life of a colony</a></li>
-    <li><a href="#orders">Orders (later development)</a></li>
     <li><a href="#outside">The land outside</a></li>
     <li><a href="#island">The island</a></li>
     <li><a href="#seasons">Seasons</a></li>
@@ -41,7 +40,6 @@
     <li><a href="#weather">Weather and disasters</a></li>
     <li><a href="#war">Battles</a></li>
     <li><a href="#cinematic">Cinematic mode</a></li>
-    <li><a href="#genes">Choices and genes (later development)</a></li>
     <li><a href="#lab">The Lab</a></li>
     <li><a href="#saving">Saving and time away</a></li>
     <li><a href="#real">Real ants</a></li>
@@ -50,7 +48,7 @@
   <h2 id="start">Getting started</h2>
   <ul>
     <li><b>Pick a species and release the queen.</b> Choose a species, then tap the soil in the ant farm, or use <i>Random spot</i> in the bar at the bottom. Watch the first workers emerge. Founding is simplified, and the wood-ant solo start is labelled Experimental. Under the species you can also type an island seed and pick the island's size, or leave the seed empty for a brand-new island (see <a href="#island">An island of its own</a>).</li>
-    <li><b>Observation 1.0.</b> The feeder supports the colony, the whole island is visible and the ants allocate work and expand by themselves. You can inspect, feed, adjust time and investigate the records. Hive Mind and its commands are reserved for later development; there is no mode switch in 1.0.</li>
+    <li><b>Observation 1.0.</b> The feeder supports the colony, the whole island is visible and the ants allocate work and expand by themselves. You can inspect, feed, adjust time and investigate the records.</li>
     <li><b>Keep several colonies.</b> <i>My colonies</i> (under <i>More</i> on iPhone, a button of its own on iPad) lists every colony you have started. Each one saves itself, so you can switch between them and pick up where you left off. You can rename, copy, export or delete them there. A deleted colony leaves a recovery copy, under <i>Other recovery copies</i>, so you can bring it back.</li>
     <li><b>Tips as you go.</b> The first time something happens (the first workers, the first outdoor nest, a new queen) a short tip explains it. Tips wait their turn and never pop up under your finger. You can turn them off in Settings.</li>
   </ul>
@@ -106,28 +104,15 @@
   <h3>Succession</h3>
   <p>When the old queen nears the end of her life, one princess stays behind as heir and takes the throne when she dies. If the royal line dies out completely, a new queen arrives some days later and founds a new dynasty in the old nest.</p>
 
-  <h2 id="orders">Orders — later development</h2>
-  <p><b>Development reference, not available in 1.0.</b> The observation release lets the colony allocate work itself. The following controls are retained for a later Hive Mind release. In that development edition, Hive Mind also adds scouting, optional goals and a Settings mode switch that preserves the colony.</p>
-  <p>Once the colony has its first workers, you can tell it what to put its effort into. The orders are in the colony panel. Each one has a cost, and a change takes a day or two to show while workers move between jobs.</p>
-  <ul>
-    <li><b>Auto</b> (the default). The colony decides for itself, and the panel says why. It turns to Fight when raiders or a spider strike a nest, or while your warriors are out (it never starts an attack), forages when food runs low or the larvae need protein, rests through winter or a drought, and raises more brood when food is plentiful.</li>
-    <li><b>Grow.</b> More nurses tend the brood, and the queen lays faster. The colony eats more.</li>
-    <li><b>Forage.</b> More workers go out to find food. More of them are lost outside.</li>
-    <li><b>Fight.</b> More workers stand ready to fight, and fight harder: raids, spiders and border fights cost the colony less, and war parties are bigger. Less food comes in.</li>
-    <li><b>Rest.</b> Fewer workers go out, the colony eats less and its workers live longer. Growth slows.</li>
-  </ul>
-  <p>When an order would help, the colony's needs suggest it. The Lab's <i>Work and food</i> section charts which order was in force, day by day.</p>
-
   <h2 id="outside">From the ant farm to the land outside</h2>
   <p>The ant farm stands in a small research shelter, with windows onto the species' own landscape. It is the colony's founding nest, where the queen lives, and it stays that way. When a few hundred workers fill it, the chambers crowd and scouts start testing the edges of the case. Then you choose: open the access port, a clear tube to the ground outside, or keep it contained. A contained colony stays safe in the enclosure. Choose <i>Open access port</i> later in Colony, or in More on a phone. Unless you choose containment, the port opens by itself after a while. The founding queen stays indoors and the tube remains connected.</p>
   <p>Once the port is open, a scout finds the opening, a scent trail forms through the tube, foragers bring food in from outside, workers start digging nearby and the first outdoor nest is founded. From then on the colony grows out on the land, towards the size wild colonies of its species reach.</p>
   <ul>
     <li><b>One colony, counted once.</b> Workers are in the ant farm, out on a trip through the port, or in an outdoor nest. The whole colony changes only by births and deaths; moving between nests changes nothing.</li>
     <li><b>Every egg is a queen's.</b> A nest with no queen of its own is sent its brood: nurses carry larvae and cocoons along the trails from the queen's nest, and you can see them on the map. Workers can lay eggs too, but theirs hatch only into males, so a colony with no queen anywhere raises no new workers.</li>
-    <li><b>Nests with lives of their own.</b> Tap an outdoor nest to see its numbers, its trails and its history, then look inside. Each nest is named after the place it was dug (a stone, an old tree, a stream, a hill) and has a role: a queen nest, a nursery, a hub, a supplier, a frontier outpost. Nests with food to spare send it along the trails to ones that are short, In the later Hive Mind development edition, you can also direct transfers of food or workers.</li>
+    <li><b>Nests with lives of their own.</b> Tap an outdoor nest to see its numbers, its trails and its history, then look inside. Each nest is named after the place it was dug (a stone, an old tree, a stream, a hill) and has a role: a queen nest, a nursery, a hub, a supplier, a frontier outpost. Nests with food to spare send it along the trails to ones that are short.</li>
     <li><b>Land is food.</b> The colony holds the ground its foragers cover, and trees add more: aphids to farm, leaves for fungus gardens, seeds and insects. The colony grows until it has as many workers as its land can feed.</li>
     <li><b>Feed the land.</b> On the map, <i>Feed</i> scatters seeds, sugar water, fruit flies or crickets. The food helps the nest whose land it falls on, inside your coloured border: while you choose, the map shows whose land it is. Sugar fills a hungry nest's stores and ends the starving within days. Flies and crickets feed the brood, so more workers hatch a few weeks later. Seeds are half and half, and keep for 40 days. Food on a wild colony's land feeds them instead (the game warns you first), and food on open ground goes off. No nest ever needs feeding: their land feeds them.</li>
-    <li><b>Plant trees — later development.</b> The development edition retains <i>Plant</i> on the map (keyboard <kbd>P</kbd>): a young tree feeds the colony for good once it grows on its land. This tool is not available in 1.0.</li>
   </ul>
 
   <h2 id="island">An island of its own</h2>
@@ -140,7 +125,7 @@
   </ul>
   <p>Beyond the home range lie the island's other regions: woods, wetland, dunes, heath, meadow and more, each with its own ground, food, wild colonies and dangers. Spreading into them is meant to take seasons, not days.</p>
   <ul>
-    <li><b>Scouting.</b> Scouts from nests near an edge probe across it and survey what lies beyond. In 1.0 you can observe the whole island. The later Hive Mind development edition hides a region until scouts have surveyed it.</li>
+    <li><b>Scouting.</b> Scouts from nests near an edge probe across it and survey what lies beyond. In 1.0 you can observe the whole island.</li>
     <li><b>Expeditions.</b> Once the far side is mapped, a big outdoor nest near the edge can send an expedition to found an outpost. Tap a region to see its outlook: its food, how well the colony would cope, the rivals there and how long the supply line would be.</li>
     <li><b>Adapting and settling.</b> An outpost struggles while the colony is not suited to the new ground: heat, cold, wet or drought cost it workers and slow its brood. Over months it adapts, and its genes shift towards workers who cope. Once adapted and well grown, the colony has settled the region and can spread on.</li>
   </ul>
@@ -172,29 +157,13 @@
     <li><b>Wildfire.</b> Lightning kills the ants where it strikes and sets dry ground alight, and the wind drives the fire on until it runs out of fuel or meets a stream, a track or rain. Foragers caught outside burn, mounds of needles and logs go up in flames, smoke pours down the entrances, and trees die. Food stored near the top of a mound burns, but most of the colony survives deep underground. The ground turns black and gives little food for a while, then comes back greener than before.</li>
     <li><b>Drought.</b> A month or more without rain over one region: plants wilt, food there halves, fires start easily, and workers that can't take the heat die.</li>
     <li><b>Natural events.</b> Storms, fires and droughts arise by themselves in 1.0.</li>
-    <li><b>Disasters on demand — later development.</b> The development-only <i>Disasters</i> controls let you aim a storm, strike with lightning or choose where a drought falls, and send a wolf spider, a raid or fungal spores against a colony on the map. They also adjust natural disaster frequency. These controls are not available in 1.0.</li>
   </ul>
 
   <h2 id="war">Battles</h2>
   <p>Rival colonies fight yours along the borders, and now and then raid an outdoor nest. In 1.0 you can watch these natural encounters and examine their effect on the colony. The ant farm never sends warriors or comes under attack.</p>
-  <h3>Hive Mind command tools — later development</h3>
-  <p><b>The following controls are not available in 1.0.</b> In the development edition, Hive Mind lets you plan attacks; the colony never launches these war parties by itself.</p>
-  <ul>
-    <li><b>Plan an attack.</b> Tap a rival colony on the map and choose <i>Attack…</i>. A <i>Raiding party</i> is quick: it grabs brood and gets out before their defenders rally. A <i>Full assault</i> fights until one side breaks, and can kill their queen; without her their colony dies out within weeks and its land is free. The plan says how many warriors go from which of your nearest outdoor nests, how many guards stay home, the scouts' guess at the odds and the food the march costs. In the development edition’s Observer mode, <i>Attack…</i> first asks you to switch to Hive Mind.</li>
-    <li><b>Watch it.</b> The warriors march across the map in columns, and a ring round the fight, amber for us and red for them, shows who is winning. The rival's card shows both sides fighting and fallen, and what the last hour cost each. <i>Press on</i> buys 12 more hours of fighting for food, once. <i>Call them back</i> brings them home; if they are already fighting, some die as they break away.</li>
-    <li><b>Afterwards.</b> Winners carry home brood and food, and some of the brood hatches as your own workers. A beaten party breaks and runs, and for a while that rival raids the nests it came from more often. Warriors need 10 days before they attack the same colony again, and no attack starts during the winter rest.</li>
-    <li><b>Defend a nest.</b> When raiders strike one of your outdoor nests, its card shows the fight. <i>Rally defenders</i> costs the nest a day of its food: until the raid ends it loses half as many workers, and the raiders lose more. <i>Send help</i> sends fighters from a linked nest, and <i>Counter-attack</i> strikes the raiders' home while they are out, which can send them running back. <i>Drive off the spider</i> sends wolf spiders away at once, but some workers are bitten and die, and the workers need 30 days before they can do it again.</li>
-    <li><b>The Fight order.</b> More workers stand ready to fight, and fight harder, from the next midnight, and war parties are bigger. Less food comes in. See <a href="#orders">Orders</a>.</li>
-  </ul>
-
   <h2 id="cinematic">Cinematic mode</h2>
   <p>Cinematic mode films the colony for you, full screen, with nothing else on it. A director moves gently between the Ant cam, the chambers, the nests and their trails and the whole island, and cuts to what is happening: a battle, a raid, a queen's death and her heir, a fire, a flood, a spider, a mating flight, a new nest, food being carried home. Each scene has a short caption.</p>
-  <p>Start it from <i>More</i> on iPhone, or the film camera in the bar on iPad. It only watches, and never changes your speed. Any touch, or any key, hands the controls back. In the later Hive Mind development edition, a choice that needs you ends it too.</p>
-
-  <h2 id="genes">Choices and genes — later development</h2>
-  <p><b>Development reference, not part of 1.0.</b> Scenario choices and the Genome tab are reserved for a later release. Existing saved scenarios and traits are kept. Natural adaptation still runs in 1.0, but new choice events do not appear.</p>
-  <p>Every few weeks something turns up that calls for a choice: a fallen fruit with an oily sheen, a wandering queen, orphaned brood, rival scouts, pirate ants on the march, a heat wave, a zombie fungus, a dead mouse, a fire bearing down on a nest. As Hive Mind, the big ones (pirate ants at a nest, smoke on the wind, a wandering queen, a chance to raid a weakened neighbour) pause the game until you choose. Smaller ones don’t stop the game: they wait for you, and if you leave one, the colony plays it safe after a few days. You can always let the colony decide. As Observer the colony weighs it up and decides by itself, unless you intervene. Results often show only days later. Settings can make these more frequent, or turn them off.</p>
-  <p>Each colony carries nine heritable traits in its queens: aggression, heat tolerance, cold hardiness, flood survival, fertility, longevity, disease resistance, body size and speed. Mutagens, new blood from other colonies and hard times change them: a heat wave leaves the survivors hardier, birds pick off the slow. None of them comes free: heat tolerance costs cold hardiness, bigger or faster colonies need more food, long-lived workers are slower. Changes from mutagens and meteorites go beyond real biology and are marked <i>Experimental</i> wherever they appear.</p>
+  <p>Start it from <i>More</i> on iPhone, or the film camera in the bar on iPad. It only watches, and never changes your speed. Any touch, or any key, hands the controls back.</p>
 
   <h2 id="lab">The Lab</h2>
   <p>The Lab measures the colony once per simulated day and opens to <i>Field notes</i>: the record’s first and last counts, its measured change and questions to investigate. Once the colony lives beyond the glass, each section starts with the whole colony, the farm and the outdoor nests together, then shows the founding farm ant by ant.</p>
@@ -209,7 +178,6 @@
     <li><b>Field notes:</b> a measured change over the chosen record, its time span and sampling resolution, with links to investigate development, food and climate. Missing history stays unknown.</li>
     <li><b>Data:</b> the island seed and the simulation seed, and spreadsheet (CSV) files of the daily measurements, every recorded death, the worker life table and the colony log, which you can save or send from the share sheet.</li>
   </ul>
-  <p><b>Genome — later development:</b> the retained Genome tab records the nine traits, the colony’s DNA, traits over time, mutations with their causes, and every scenario choice. The development Work and food chart also records orders in force. Both are excluded from public 1.0.</p>
   <p>Every chart has a table view. The same island seed and simulation seed, with the same actions, grow the same colony, so you can rerun an experiment with one thing changed, such as the food mix.</p>
   <p>Once the colony is full-grown, it tells its story so far: its queen and her line, its age, workers and outdoor nests, battles won and lost, rival queens defeated and its firsts. <i>Your colony so far</i>, at the top of the Lab, shows it again.</p>
 
@@ -228,7 +196,7 @@
     <li><b>The farm is only part of the nest.</b> The ant farm holds a couple of thousand ants at most, each one simulated. The rest of a big colony is counted nest by nest out on the island, with a sample of its workers shown inside each nest.</li>
     <li><b>Lives are sped up.</b> Workers' lives are shortened so that generations turn over at a watchable pace, and islands are about a kilometre across so a colony can reach the far side in a few years of play.</li>
     <li><b>Battles are simplified.</b> Real ants fight with jaws, stings and acid in many small struggles. Here each hour of fighting at the entrances is worked out for the whole front at once, and drawn as ants grappling.</li>
-    <li><b>Genes are simplified.</b> Real ant traits come from many genes and change over many generations. Here a handful of traits can shift in weeks. Selection by hard times follows real ideas; the later development scenarios in which a strange fruit changes a colony do not, and are marked <i>Experimental</i>.</li>
+    <li><b>Genes are simplified.</b> Real ant traits come from many genes and change over many generations. Here a handful of traits can shift in weeks. Natural adaptation is a simplified model, not a prediction of how a real colony will evolve.</li>
     <li><b>The numbers are stylised.</b> Temperatures, growth rates and diet effects follow the right shapes, but they are simplified rather than measured from real colonies. Treat the Lab as a way to explore ideas, not as field data.</li>
   </ul>
 </main>
