@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The science — Ant Laboratory</title>
+<meta name="description" content="The research behind Ant Laboratory: six real ant species drawn from measurements, and colony life, brood care, the habitat and the island built from published studies.">
+<meta name="theme-color" content="#101d23">
+<link rel="icon" href="favicon.svg?v=b617176d5f56" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png?v=eda200b2afa7" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png?v=dad16533b57a">
+<link rel="canonical" href="https://www.antlaboratory.com/science.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Ant Laboratory">
+<meta property="og:title" content="The science — Ant Laboratory">
+<meta property="og:description" content="The research behind Ant Laboratory: six real ant species drawn from measurements, and colony life built from published studies.">
+<meta property="og:url" content="https://www.antlaboratory.com/science.html">
+<meta property="og:image" content="https://www.antlaboratory.com/og-image.jpg?v=e4e2d5a7b77c">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ant Laboratory: a living ant farm and its island.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The science — Ant Laboratory">
+<meta name="twitter:description" content="The research behind Ant Laboratory: six real ant species drawn from measurements, and colony life built from published studies.">
+<meta name="twitter:image" content="https://www.antlaboratory.com/og-image.jpg?v=e4e2d5a7b77c">
+<meta name="twitter:image:alt" content="Ant Laboratory: a living ant farm and its island.">
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="page.css">
+<script src="site-config.js"></script>
+<script src="site.js" defer></script>
+</head>
+<body>
+<header class="nav wrap-w">
+  <a class="brand" href="./"><img src="icon-64.png?v=22aa451486ef" alt="" width="32" height="32">Ant Laboratory</a>
+  <nav aria-label="Site"><a href="./#screenshots">Screenshots</a><a href="about.html">How it works</a><a href="science.html" aria-current="page">The science</a><a href="development.html">Development</a><a href="support.html">Support</a><a data-forum hidden>Community</a></nav>
+</header>
+
+<main class="wrap doc">
+  <h1>The science behind Ant Laboratory</h1>
+  <p class="lede">Ant Laboratory is a game, but it is built on real biology. The ants are drawn from measurements of real specimens. What they do comes from published studies of real colonies: how they dig, feed their young, find food, care for their dead, and live through heat, damp, flood and fire. Where the game has to bend a fact so you can watch it happen, it says so.</p>
+  <ul class="toc">
+    <li><a href="#approach">How we work</a></li>
+    <li><a href="#bodies">Bodies true to each species</a></li>
+    <li><a href="#species">The six species</a></li>
+    <li><a href="#colony">Life inside the colony</a></li>
+    <li><a href="#habitat">The living formicarium</a></li>
+    <li><a href="#island">The island</a></li>
+    <li><a href="#validity">How the simulation is checked</a></li>
+    <li><a href="#made">Made with Claude Code</a></li>
+    <li><a href="#honest">What is simplified</a></li>
+    <li><a href="#reading">Further reading</a></li>
+  </ul>
+
+  <h2 id="approach">How we work</h2>
+  <ul>
+    <li><b>Research comes first.</b> Before a behaviour goes into the game, it is checked against published studies, field guides and specimen measurements, and written up with its sources. The game's design notes keep this research, source by source.</li>
+    <li><b>A second check.</b> Every piece of research is then read again by a separate reviewer, whose job is to find what is wrong. Claims that a study did not really show are cut or softened. A study of a related species is not taken as proof for ours.</li>
+    <li><b>Every ant is simulated.</b> In the ant farm, each ant has her own age, size, job, hunger, memory of where food is, and life story. Nothing is scripted: the colony's choices come from thousands of ants each doing their own small part.</li>
+    <li><b>The same seed grows the same colony.</b> The simulation is repeatable, like a lab experiment. Change one thing, such as the warmth or the food, and you can see what that one change did.</li>
+    <li><b>The fact cards are checked too.</b> In September 2026 every species card was checked against its sources. Claims that went further than the evidence were rewritten. For example, the famous 29-year record for a black garden ant queen rests on conflicting dates, so the game no longer states it as fact.</li>
+  </ul>
+
+  <h2 id="bodies">Bodies true to each species</h2>
+  <p>Every ant in the game is drawn from the real proportions of its species, taken from specimen measurements (AntWeb and AntWiki), taxonomic keys (Seifert 2020–21) and species monographs (Cole 1968). Each body is built from about forty measured parts, set as shares of the ant's length:</p>
+  <ul>
+    <li><b>The head:</b> its length and width, how square or oval it is, how much the back is wider than the front, the notch at the back of a leafcutter's head, the size and place of the eyes, and the length and width of the jaws.</li>
+    <li><b>The thorax:</b> its length and the width of each of its three plates, and the spines on its back where a species has them.</li>
+    <li><b>The waist:</b> one node or two. Black garden, wood and carpenter ants have a single scale; fire, harvester and leafcutter ants have two nodes, the petiole and postpetiole, each with its own length and width.</li>
+    <li><b>The gaster:</b> its length and width, and where the edge of each plate lies.</li>
+    <li><b>The antennae:</b> elbowed, with the scape and the rest of the antenna each measured, and a club at the tip where the species has one.</li>
+    <li><b>The surface:</b> how shiny the body is, the fine ridges (rugae) on harvester and leafcutter ants, and how many hairs there are, how long and what colour.</li>
+    <li><b>Every caste:</b> queens, males, young queens and the big majors each have their own shape. A queen is drawn at her species' real length against her workers: about twice a worker's length in black garden ants, more than three times in carpenter ants, and over four times in leafcutters. Queens have the wing scars, larger thoraxes and simple eyes (ocelli) that real queens have.</li>
+    <li><b>How they walk.</b> Ants walk in a tripod gait: three legs down while the other three swing (Reinhardt et al. 2009; Wahl et al. 2015; Merienne et al. 2020). In the game each step carries an ant about seven tenths of her length, and each foot stays down for about three fifths of the step, so for a moment all six feet are on the ground. The gait follows the distance walked, so a planted foot never slides.</li>
+  </ul>
+
+  <h2 id="species">The six species</h2>
+  <ul>
+    <li><b>Black garden ant (<i>Lasius niger</i>).</b> A single waist scale, a rounded head and a dark, faintly shiny body with fine pale hairs. One queen founds the colony alone and raises the first workers by herself, as real queens do. The workers farm aphids for honeydew.</li>
+    <li><b>Wood ant (<i>Formica rufa</i>).</b> Long legs, a red thorax with a dark cap and saddle, and simple eyes on the head. It builds a mound of thatch. Real rufa-group queens usually found colonies with the help of other ants, so the game's solo start is marked <i>Experimental</i>. Colonies may have one queen or many, and the game no longer says every colony has many.</li>
+    <li><b>Carpenter ant (<i>Camponotus pennsylvanicus</i>).</b> Large and hairy, with big majors whose heads are broader than their bodies. It carves galleries in rotting wood and shares food mouth to mouth, a behaviour studied in this very species.</li>
+    <li><b>Leafcutter ant (<i>Atta sexdens</i>).</b> Three pairs of spines on the thorax, spines on the head, a deep notch at the back of the head, two waist nodes and a dull, ridged body. Workers range from tiny gardeners to huge soldiers. The leaves they cut feed a fungus garden, and the fungus feeds the ants (Silva et al. 2003; Camargo et al. 2015).</li>
+    <li><b>Harvester ant (<i>Pogonomyrmex barbatus</i>).</b> A square head, strong ridges, long pale hairs, short clubbed antennae and two waist nodes. It gathers seeds into granaries on dry grassland. How many foragers go out depends on how often they meet foragers coming home with food (Prabhakar, Dektar &amp; Gordon 2012).</li>
+    <li><b>Fire ant (<i>Solenopsis invicta</i>).</b> Small and shiny, with a dark gaster, two waist nodes and a two-part club on each antenna. Workers come in many sizes. The older larvae break down solid food for the colony, and in a flood the workers link up into rafts.</li>
+  </ul>
+  <p>Each species has its own diet, nest, digging style, worker sizes, lifespan, preferred soil, temperatures and winter habits. The island's wild neighbours (red ants, pavement ants, honeypot ants, trap-jaw ants and more) are drawn from measurements in the same way.</p>
+
+  <h2 id="colony">Life inside the colony</h2>
+  <ul>
+    <li><b>Brood.</b> Eggs become larvae, then pupae, then adults, each stage taking its own time and growing faster when warm (Porter 1988). Black garden, wood and carpenter ants spin cocoons; fire, harvester and leafcutter ants have bare pupae.</li>
+    <li><b>Care.</b> Nurses feed the larvae, and food passes from ant to ant mouth to mouth (trophallaxis). Larvae and adults need different food: sugar fuels the workers, and protein grows the young (Dussutour &amp; Simpson 2012). Nurses carry brood to the right warmth and damp (Potts et al. 1984).</li>
+    <li><b>Work without a boss.</b> No ant gives orders. Each worker chooses her next job from what she meets: hungry larvae, a full stomach, a tunnel to dig. Jobs shift with age and need, and many workers in a healthy colony rest at any moment, as real ones do.</li>
+    <li><b>Digging.</b> Ants dig by moving soil grain by grain and piling it at the surface. How much they dig depends on the soil and its water (Buhl et al. 2004; Pielström &amp; Roces 2014). The farm's tunnels and rooms are carved one grain at a time.</li>
+    <li><b>Foraging.</b> Foragers lay scent trails to food, and their sisters follow the trails out and home.</li>
+    <li><b>The dead.</b> Undertakers carry their dead sisters out to a refuse pile by the entrance. Keeping waste away from the nest is ordinary ant hygiene; leafcutters keep separate waste heaps (Hart &amp; Ratnieks 2001).</li>
+    <li><b>Queens and succession.</b> Queens lay at their species' pace, slow with age, and are cared for by the workers. In flight season the colony raises winged queens and males for the mating flight.</li>
+  </ul>
+
+  <h2 id="habitat">The living formicarium</h2>
+  <p>The ant farm is a small living world, as a real keeper's tank is. Its light, water and warmth work as they do in nature:</p>
+  <ul>
+    <li><b>Damp.</b> Brood dies if the soil is too dry or too wet for days. Fire ant larvae need humid air (Cassill &amp; Tschinkel 2000), and leafcutters keep their gardens at about 98% humidity (Roces &amp; Kleineidam 2000).</li>
+    <li><b>Warmth.</b> Warm brood grows faster, and too much heat harms it. Black garden ants dig deeper when the surface warms (García Ibarra et al. 2024), and heat stresses young colonies (da Silva et al. 2026). Species that rest in winter go to rest in the cold.</li>
+    <li><b>Mould and springtails.</b> Mould grows where the air is damp, above about 75% humidity (Sedlbauer 2003). Tiny springtails (<i>Folsomia candida</i>) graze it, and the ants hunt them (Reznikova &amp; Panteleeva 2001).</li>
+    <li><b>Mushrooms and green growth.</b> The little yellow mushroom by the refuse pile is the real flowerpot parasol, <i>Leucocoprinus birnbaumii</i>. A bare surface greens as it does in nature: first a crust of algae, then moss, then grass.</li>
+    <li><b>Keeping practice.</b> Real keepers' care guides, checked against independent sources, shape what the habitat does and what the game asks of you. Black garden ants cope with floods (Hertzog et al. 2016), so a wet spell harms brood, never adults.</li>
+  </ul>
+
+  <h2 id="island">The island</h2>
+  <ul>
+    <li><b>Spreading out.</b> Workers found new nests linked by trails, as many real species do, and scouts search for new land. Each island is grown from a seed with real habitats: woodland, meadow, heath, dunes and wetland.</li>
+    <li><b>Neighbours.</b> Rival colonies hold their own land and build in their own ways: thatch mounds, fungus gardens, seed granaries and galleries in wood. Wolf spiders, built from measurements, hunt at the entrances.</li>
+    <li><b>Weather and fire.</b> Storms flood the low ground, droughts wither plants, and lightning starts fires on dry ground. The wind drives a fire on until a stream, a track or rain stops it, and burnt ground grows back greener.</li>
+    <li><b>Seasons.</b> Winter rest, the mating flights and the turning leaves follow the real year, sped up so a year passes in a little over an hour.</li>
+  </ul>
+
+  <h2 id="validity">How the simulation is checked</h2>
+  <p>A simulation is only as good as its checks. Ant Laboratory is tested every time it changes:</p>
+  <ul>
+    <li><b>More than 100 automated tests.</b> They play the game in a browser and check what happens: that brood dies when the soil stays too dry, that undertakers carry the dead to the refuse pile, that no flood, fire or predator ever reaches the sealed ant farm, that every colony saved by a released version opens again, and much more.</li>
+    <li><b>A fingerprint of the simulation.</b> Fixed seeds are grown for a set number of days and compared with a stored record. If a change alters how colonies grow, the test catches it, and the change must say so openly.</li>
+    <li><b>Checked against the research.</b> Each behaviour is written up with its sources before it is built, then reviewed again once built, to make sure the game does what the studies describe and no more.</li>
+    <li><b>Watched, not just measured.</b> Colonies are also watched closely, at every speed and on real iPhones and iPads, to see that ants really reach what they carry, feed what they tend and rest when there is nothing to do.</li>
+  </ul>
+  <p><b>What this does and does not mean.</b> The simulation follows real biology in what happens and in which direction things change: warmth speeds up brood, dry soil kills it, protein grows the young. It is not a scientific instrument. Its rates are sped up and simplified, it has not been tested against measurements from real colonies, and it has not been peer-reviewed. Use it to explore and ask questions about ants, not to predict what a real colony will do.</p>
+
+  <h2 id="made">Made with Claude Code</h2>
+  <p>Ant Laboratory is made by one developer, Jahoward Hutchins, who sets the vision and the design, makes every decision about how the game plays, directs the art and tests the game on real devices. It is built with AI tools: <b>Claude Code</b>, Anthropic’s AI coding assistant, helps write the code and the game’s text, gathers and reads the research and runs the tests. Separate Claude reviewers then check each piece of work, the code and the science alike, and their findings are fixed before anything is released. The radio’s music was made with Suno and ElevenLabs, and many of the nature sounds with ElevenLabs.</p>
+  <p>Ant Laboratory is an independent game. It is not made or endorsed by Anthropic.</p>
+
+  <h2 id="honest">What is simplified</h2>
+  <p>To let you watch a colony's whole life, the game speeds up time and simplifies a few things. It never hides this:</p>
+  <ul>
+    <li><b>Time is sped up.</b> A day passes in 12 seconds. Worker and queen lives are shortened so you can watch generations come and go.</li>
+    <li><b>The numbers follow the right shapes.</b> Growth, temperature and diet effects rise and fall the way real ones do, but their exact values are simplified, not measured from real colonies. Treat the Lab as a way to explore ideas, not as field data.</li>
+    <li><b>Outdoors, nests are counted, not followed ant by ant.</b> The ant farm simulates every ant. Out on the island, each nest's numbers are worked out as a whole, and a sample of its workers is drawn inside.</li>
+    <li><b>Anything beyond real biology is marked <i>Experimental</i>.</b> For example, the wood ant's solo start, how fast the surface turns green, and a colony raising a new queen to carry on.</li>
+  </ul>
+  <p>For the full list, see <a href="about.html#real">Real ants and the simulation</a>.</p>
+
+  <h2 id="reading">Further reading</h2>
+  <p>A few of the studies and sources behind the game, and what each looked at:</p>
+  <ul>
+    <li><b>Bodies:</b> AntWeb and AntWiki specimen measurements; Seifert (2020–21), on European ants; Cole (1968), on North American harvester ants.</li>
+    <li><b>Walking:</b> Reinhardt et al. (2009), Wahl et al. (2015) and Merienne et al. (2020), on how ants place their legs and step.</li>
+    <li><b>Digging:</b> Buhl et al. (2004), on how a colony's digging organises itself; Pielström &amp; Roces (2014), on digging and soil water.</li>
+    <li><b>Food:</b> Dussutour &amp; Simpson (2012), on black garden ant workers fed too much protein; Silva et al. (2003) and Camargo et al. (2015), on leafcutters and their fungus garden.</li>
+    <li><b>Foraging:</b> Prabhakar, Dektar &amp; Gordon (2012), on how harvester ants decide how many go out.</li>
+    <li><b>Hygiene:</b> Hart &amp; Ratnieks (2001), on how leafcutters keep their waste away from the nest.</li>
+    <li><b>Brood, damp and warmth:</b> Porter (1988), on fire ant brood and temperature; Cassill &amp; Tschinkel (2000), on fire ant larvae and humidity; Potts et al. (1984), on ants moving brood to the right damp; Roces &amp; Kleineidam (2000), on leafcutters' garden humidity; García Ibarra et al. (2024) and da Silva et al. (2026), on black garden ants and heat.</li>
+    <li><b>Floods:</b> Hertzog et al. (2016), on black garden ants surviving floods.</li>
+    <li><b>The small life in the soil:</b> Sedlbauer (2003), on when mould grows; Fountain &amp; Hopkin (2005), on the springtail <i>Folsomia candida</i>; Reznikova &amp; Panteleeva (2001), on ants hunting springtails.</li>
+  </ul>
+</main>
+
+<footer class="foot wrap-w">
+  <nav aria-label="More"><a href="./">Home</a><a href="science.html">The science</a><a href="development.html">Development</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a data-forum hidden>Community</a></nav>
+  <span>© <span data-year>2026</span> <span data-owner>Ant Laboratory</span></span>
+  <span class="credits">Apple, iPhone and iPad are trademarks of Apple Inc. App Store is a service mark of Apple Inc. Fonts: Barlow and Barlow Condensed (Jeremy Tribby) and IBM Plex Mono (IBM), SIL Open Font License 1.1. Most nature sounds are recordings made by the developer with ElevenLabs. The ants’ sounds are made in the app. The lodge radio plays the developer’s own soundtrack.</span>
+</footer>
+</body>
+</html>
