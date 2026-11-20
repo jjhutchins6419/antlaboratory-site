@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ant Laboratory news</title>
+  <subtitle>New versions, fixes, progress and things to look out for in Ant Laboratory.</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://www.antlaboratory.com/news/feed.xml"/>
+  <link rel="alternate" type="text/html" href="https://www.antlaboratory.com/news/"/>
+  <id>https://www.antlaboratory.com/news/</id>
+  <updated>2026-10-30T12:00:00Z</updated>
+  <author><name>Ant Laboratory</name></author>
+  <icon>https://www.antlaboratory.com/icon-64.png</icon>
+  <entry>
+    <title>2.1 Hunters &amp; Gatherers is out</title>
+    <link href="https://www.antlaboratory.com/news/hunters-and-gatherers.html"/>
+    <id>https://www.antlaboratory.com/news/hunters-and-gatherers.html</id>
+    <published>2026-10-30T12:00:00Z</published>
+    <updated>2026-10-30T12:00:00Z</updated>
+    <summary>Ants that hunt together, a wooden home for turtle ants, a wolf spider and a games folder on the lab computer. Here is what is new.</summary>
+    <category term="release" label="Release"/>
+    <content type="html">&lt;figure class=&quot;news-fig&quot;&gt;&lt;img src=&quot;https://www.antlaboratory.com/img/news/2-1-hunt.jpg?v=81e28c0772a3&quot; width=&quot;1600&quot; height=&quot;1200&quot; alt=&quot;A line of black ants grips a big brown cricket on the soil and drags it towards their nest.&quot; fetchpriority=&quot;high&quot;&gt;&lt;/figure&gt;&lt;p&gt;Version 2.1, Hunters &amp;amp; Gatherers, is on the App Store now. It’s a free update for everyone who has Ant Laboratory. Your colonies open just as you left them.&lt;/p&gt;
+  &lt;h2 id=&quot;ants-that-hunt-together&quot;&gt;Ants that hunt together&lt;/h2&gt;
+  &lt;p&gt;Meat-eating ants now chase live crickets and fruit flies. One ant bites, calls her nestmates, and together they drag the prey home. At the door they cut it up and carry the pieces in. Vegetarian ants leave live prey alone.&lt;/p&gt;
+  &lt;h2 id=&quot;a-new-home-for-turtle-ants&quot;&gt;A new home for turtle ants&lt;/h2&gt;
+  &lt;p&gt;Turtle ants are the seventh species. They live in a network of sticks, forks, branches and bamboo, with bridges between them. They move in through small round doors, and a soldier blocks each door with her flat head, just as in real colonies.&lt;/p&gt;
+  &lt;figure class=&quot;news-fig&quot;&gt;&lt;img src=&quot;https://www.antlaboratory.com/img/news/2-1-turtle-ants.jpg?v=9fda4d35fb89&quot; width=&quot;1600&quot; height=&quot;1200&quot; alt=&quot;Turtle ants walking along a branch with rooms carved inside it, above a piece of bamboo.&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;figcaption&gt;Turtle ants at home in their branches. Their heads are the doors.&lt;/figcaption&gt;&lt;/figure&gt;
+  &lt;h2 id=&quot;a-wolf-spider&quot;&gt;A wolf spider&lt;/h2&gt;
+  &lt;p&gt;With the port open, a wolf spider wanders in about once a month. Watch the colony gather and drive it off.&lt;/p&gt;
+  &lt;figure class=&quot;news-fig&quot;&gt;&lt;img src=&quot;https://www.antlaboratory.com/img/news/2-1-wolf-spider.jpg?v=01cd314ad5cb&quot; width=&quot;1600&quot; height=&quot;1200&quot; alt=&quot;A large wolf spider standing over the soil while ants rush at its legs.&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;figcaption&gt;A wolf spider gets in. The colony fights back.&lt;/figcaption&gt;&lt;/figure&gt;
+  &lt;h2 id=&quot;games-on-the-lab-computer&quot;&gt;Games on the lab computer&lt;/h2&gt;
+  &lt;p&gt;The computer in the lodge has a new Games folder. Play Ant Arcade, Aphid Ranch and Leaf Cutter, or The Long Way Home, a brand-new platformer: guide a lost scout ant through a 1990s kitchen, pantry and sink to get home.&lt;/p&gt;
+  &lt;figure class=&quot;news-fig&quot;&gt;&lt;img src=&quot;https://www.antlaboratory.com/img/news/2-1-ant-os.jpg?v=4ec35c7dbf29&quot; width=&quot;1600&quot; height=&quot;1200&quot; alt=&quot;The lodge computer&amp;#x27;s Games folder, with Ant Arcade, Aphid Ranch, Leaf Cutter and The Long Way Home.&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;figcaption&gt;ANT OS, the lab computer, now has a Games folder.&lt;/figcaption&gt;&lt;/figure&gt;
+  &lt;h2 id=&quot;and-more&quot;&gt;And more&lt;/h2&gt;
+  &lt;ul&gt;&lt;li&gt;Ants that move like ants: they turn round instead of walking backwards, and their feet stay on the soil.&lt;/li&gt;&lt;li&gt;Live fruit flies and crickets, strawberries and blueberries, and leaves for leafcutters to cut up.&lt;/li&gt;&lt;li&gt;The zombie-ant fungus. With the port open, a carpenter ant can carry it home. Close the port to keep it out.&lt;/li&gt;&lt;li&gt;Knock on the glass: a double tap startles the ants.&lt;/li&gt;&lt;li&gt;Ants groom each other, share food mouth to mouth and help new workers out of their cocoons.&lt;/li&gt;&lt;li&gt;Every nest’s card tells how it began, and the Colony panel shows the family tree.&lt;/li&gt;&lt;li&gt;A glowing tank lamp, a light switch and a proper door in the lodge.&lt;/li&gt;&lt;li&gt;Many fixes, and the game uses less memory, so it runs more smoothly.&lt;/li&gt;&lt;/ul&gt;
+  &lt;h2 id=&quot;get-it&quot;&gt;Get it&lt;/h2&gt;
+  &lt;p&gt;On iPhone and iPad, update from the &lt;a href=&quot;https://apps.apple.com/app/id6815513415&quot; rel=&quot;noopener&quot;&gt;App Store&lt;/a&gt;. Ant Laboratory is also out on Android with Fall Harvest: see &lt;a href=&quot;https://www.antlaboratory.com/whats-new.html&quot;&gt;what’s new&lt;/a&gt;.&lt;/p&gt;</content>
+  </entry>
+</feed>
